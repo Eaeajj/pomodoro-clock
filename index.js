@@ -7,8 +7,7 @@ function App() {
     const [onBreak, setOnBreak] = React.useState(false);
     const [breakAudio, setBreakAudio] = React.useState(new Audio("./breakSignal.wav"));
 
-
-
+    console.log("test")
     const playBreakSound = () => {
         breakAudio.currentTime = 0;
         breakAudio.play();
